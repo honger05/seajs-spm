@@ -17,7 +17,7 @@ foo-module/
 ```
 
 
-那么构建很简单。首先安装 spm 工具（spm2）：
+**那么构建很简单。首先安装 spm 工具（spm2）：**
 ```
 $ npm install spm@2.x -g
 $ npm install spm-build -g
@@ -29,12 +29,12 @@ $ cd foo-module
 $ spm build
 ```
 
-* 这样，就会根据 package.json 中的信息，将文件自动构建到 dist 目录下。构建后，还需要将 dist 目录下的文件部署到 sea-modules 目录中，比如 examples 中的 make deploy 命令：Makefile *
+*这样，就会根据 `package.json` 中的信息，将文件自动构建到 dist 目录下。构建后，还需要将 dist 目录下的文件部署到 sea-modules 目录中，比如 examples 中的 make deploy 命令：Makefile*
 
 
 
 
-example中的构建
+## example中的构建
 ```
 First, you should install spm and spm-build:
 
