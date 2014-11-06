@@ -1,12 +1,12 @@
 seajs-spm
 =========
 
-使用spm构建seajs项目
-
+###使用spm构建seajs项目###
 
 
 spm3 已经发布，建议使用最新的构建工具。http://spmjs.io/documentation/develop-a-package#build
 
+```
 如果项目遵循推荐的标准目录结构：
 foo-module/
   |-- dist                    存放构建好的文件
@@ -14,6 +14,7 @@ foo-module/
   |     |-- foo.js
   |     `-- style.css
   `-- package.json      模块信息
+```
 
 那么构建很简单。首先安装 spm 工具（spm2）：
 $ npm install spm@2.x -g
